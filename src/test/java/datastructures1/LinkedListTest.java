@@ -10,5 +10,8 @@ public class LinkedListTest {
 		Node<Integer> secondNode = new Node<Integer>(30);
 		Node<Integer> thirdNode = new Node<Integer>(56);
 		MyLinkedList list = new MyLinkedList();
+		list.addEnd(firstNode);
+		list.addEnd(secondNode);
+		list.addEnd(thirdNode);
 	}
 }
